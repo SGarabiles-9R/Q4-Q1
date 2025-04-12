@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calistoga&family=Dosis:wght@200..800&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Exercise 2 || Conditional Operators</title>
+  </head>
+
+  <body>
+    <div class="browser-window">
+
+        <!-- Circles Browser Design -->
+        <div class="browser-header">
+              <div class="circle dark-grey"></div>
+              <div class="circle medium-grey"></div>
+              <div class="circle light-grey"></div>
+        </div>
+
+
+      <!-- Browser content -->
+      <div class="browser-scroll-area">
+      <div class="browser-content">
+
+              <img src="https://media.tenor.com/DKtd7p8QwMMAAAAM/bad-apple-yuyuko.gif" width="300">
+        <!-- Title -->
+        <h2>BMI Calculator</h2>
+        <!-- BMI DESCRIPTION -->
+        <div>
+          <h5>Body Mass Index (BMI) is a numerical value that helps estimate a person's body fat based on their weight and height. It is calculated by dividing a person’s weight in kilograms by the square of their height in meters (kg/m²). The resulting number is used to categorize individuals into groups such as underweight, normal weight, overweight, or obese. While it doesn’t directly measure body fat, BMI is a quick and easy screening tool to assess potential health risks related to weight.</h5>
+        </div>
+
+
+
+        <img id="meterimg" src="https://i.imgur.com/EuoAID0.png" style="height: 300px; width: 300px;"> <!-- Meter images -->
+
+        <br>
+
+        <!-- Form -->
+          <!-- Result  -->
+         <p class="RESULTTEXT" id="results">___</p>
+
+        <div>
+          <label>Enter Height in meters</label>
+          <input type="number" id="height" placeholder="meters" class="input" />
+          <br />
+          <label>Enter Weight in kilograms</label>
+          <input type="number" id="weight" placeholder="kg" class="input" />
+        </div>
+
+
+
+
+        <!-- Buttons -->
+        <div>
+          <button class="btn btn-dark" onclick="calculate()">Calculate BMI</button>
+          <button onclick="location.reload()" class="btn btn-dark">Refresh</button>
+        </div>
+      </div>
+    </div>
+
+
+<!-- Decor -->
+    <div class="app-bar">
+  <div class="app-icons">
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/244336bd17dc1d3e983f09cc58576abc_low_res_AltServer.png" alt="App Icon 1">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/3b98744469fbd91362c2b233f26459d6_low_res_ChatWise.png" alt="App Icon 2">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9111f8e8a2152074f3bbf32fa9566bb0_low_res_VSCode_Monochrome.png" alt="App Icon 3">
+    </div>
+    <div class="icon">
+      <img src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/393d955335de1803a47f7beb5d5d2db0_low_res_Unity_Hub.png" alt="App Icon 4">
+    </div>
+  </div>
+  <div class="credits">
+    <span>Shalanie Garabiles || 9 Ruby</span>
+  </div>
+</div>
+</div>
+
+<script src="main.js"></script>
+  </body>
+</html>

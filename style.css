@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+     background-size: cover; /* Ensures the wallpaper covers the entire screen */
+    background-position: center; /* Centers the wallpaper */
+    background-attachment: fixed; /* Keeps the wallpaper fixed while scrolling (optional) */
+    height: 100vh; /* Makes sure the background covers the entire viewport */
+  background-image: url(https://i.pinimg.com/originals/fc/af/63/fcaf63bd5a4189fa04d1d0a41a5ab98b.gif);
+  color: white;
+}
+
+.RESULTTEXT{
+  font-size: 20px;
+}
+
+.dark-grey {
+  background-color: #2b2b2b; /* dark black-grey */
+}
+
+.medium-grey {
+  background-color: #666666; /* medium grey */
+}
+
+.light-grey {
+  background-color: #cccccc; /* light grey */
+}
+
+/* Outer browser frame */
+.browser-window {
+  width: 800px; /* Made it wider */
+  height: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: black;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.browser-header {
+  background-color: grey; 
+  padding: 8px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.browser-header .circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+/* Content inside */
+.browser-content {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Calistoga', cursive;
+  color: whie;
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin: 10px 5px 0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/*Decor*/
+/* App Bar Styling */
+.app-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* App Icon Styling */
+.app-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* Credits Styling */
+.credits {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+input[type="text"].input,
+input[type="number"].input {
+  width: 80px !important;
+  padding: 8px;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+}
